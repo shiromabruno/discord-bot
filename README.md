@@ -1,7 +1,3 @@
-# AlexBot
-Python Discord bot for using OpenAI's language model GPT-4
-Video: https://youtu.be/RU6fHYSWW3Q
-
 ## Installation:
 
 ### To use this bot, you need 3 things
