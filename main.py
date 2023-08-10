@@ -1,10 +1,6 @@
 """
 This is a discord bot for generating texts using OpenAI's GPT-4
 
-Author: Stefan Rial
-YouTube: https://youtube.com/@StefanRial
-GitHub: https://https://github.com/StefanRial/AlexBot
-E-Mail: mail.stefanrial@gmail.com
 """
 
 import discord
