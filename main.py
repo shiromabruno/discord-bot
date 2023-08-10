@@ -79,16 +79,16 @@ class Client(discord.Client):
             parts = [assistant_response[i:i + 2000] for i in range(0, len(assistant_response), 2000)]
             for index, part in enumerate(parts):
                 try:
-                    print(f"Alex: {part}")
+                    print(f"shishi: {part}")
                     await message.channel.send(part)
                 except discord.errors.Forbidden:
-                    print("Alex: I am not able to send a message. Do I have the correct permissions on your server?")
+                    print("shishi: I am not able to send a message. Do I have the correct permissions on your server?")
 
 
-alex_intents = discord.Intents.default()
-alex_intents.messages = True
-alex_intents.message_content = True
-client = Client(intents=alex_intents)
+shishi_intents = discord.Intents.default()
+shishi_intents.messages = True
+shishi_intents.message_content = True
+client = Client(intents=shishi_intents)
 
 openai.organization = OPENAI_ORG
 openai.api_key = OPENAI_API_KEY
